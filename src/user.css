@@ -1,0 +1,46 @@
+#userLogin,#adminlogin{
+    background-color: #43c949;
+}
+#card{
+    border-radius: 1rem;
+}
+#loginimg{
+    border-radius: 1rem 0 0 1rem;
+}
+.pwd {
+    position: relative;
+}
+
+.p-viewer {
+    z-index: 9999;
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    cursor: pointer;
+}
+
+.fa-eye,.color {
+    color: #000;
+}
+.userdata{
+    background-image: url("https://www.pragyan.org/hackathon/images/hackathon.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+   
+}
+.tableform{
+    background-color: rgba(0,0,0,0.5);
+}
+#cardhover:hover{
+   cursor: pointer;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+}
+.color{
+    color: #000;
+}
+.imagee{
+    height: 200px;
+    
+}
