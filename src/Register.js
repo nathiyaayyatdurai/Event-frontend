@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useFormik } from 'formik';
 import axios from "axios"
 import { useNavigate } from "react-router-dom";
+import Swal from 'sweetalert2'
 import { useState } from 'react';
 
 function Register() {
