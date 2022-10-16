@@ -17,6 +17,11 @@ function Register() {
     onSubmit: async (values) => {
       try {
         await axios.post("https://event-project2.herokuapp.com/register", values)
+         Swal.fire(
+           'Good job!',
+          'You have submitted!',
+          'success'
+        )
         navigate("/")
       } catch (error) {
         console.log(error)
